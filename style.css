@@ -6,7 +6,29 @@
     border-radius: 9px;
     margin-top: 30px;
 }
+.catagories img{
+       height: 200px;
+}
+.catagories h1{
+    color: ghostwhite;
+}
 .carousel-item{
  padding:20px 40px ;
  background-color: darkgray;
 }
+.catagories{
+    margin-top: 70px;
+}
+.cat-1{
+    background-color: chocolate;
+}
+.cat-2{
+    background-color:darkgoldenrod;
+}
+.cat-3{
+    background-color: darksalmon;
+
+}
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 8px;
