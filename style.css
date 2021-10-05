@@ -1,57 +1,105 @@
- .gorgious{
-    color: chocolate;
-}
-.gorgiouse{
-    background-color: crimson;
-    border-radius: 5px;
-    margin-top: 50px;
-    padding: 3px 9px;
-    color: floralwhite;
-}
-.catagories img{
-       height: 200px;
-}
-.catagories h1{
-    color: ghostwhite;
-}
-.carousel-item{
- padding:20px 40px ;
- background-color: darkgray;
-}
-.catagories{
-    margin-top: 110px;
-}
-.cat-1{
-    background-color: chocolate;
-}
-.cat-2{
-    background-color:darkgoldenrod;
-}
-.cat-3{
-    background-color: darksalmon;
-
-}
-.cat-1, .cat-2, .cat-3{
-    padding: 10px 30px;
-    border-radius: 8px;
+.container{
+    width: 100%;
+    /* background-color: orchid; */
 }
 
-.junk-foods{
-    margin-top: 120px;
+#log-in{
+    border: 1px solid grey;
+    padding: 5px 9px;
+    background-color: lavender;
+    color: black;
 }
-.card{
-    border: none;
-    box-shadow: 5px 5px 10px lightgrey;
-    border-radius: 7px;
+#pure-size img{
+    height: 60px;
+    width: 60px;
+    
 }
+.down-nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    position: relative;
 
-.hard-foods{
-    margin-top: 120px;
 }
-.orange-bg{
-    height: 300px;
-    background-color: lightgrey;
+.down-nav{
+    padding-top: 8px;
 }
-.orange-bg h6{
-    color: lightslategray;
+.container-1 h5{
+    margin-left: -6px;
+    justify-content: center;
+    color: rgb(66, 95, 79);
+    font-weight: -8px;
+    font-size: 18px;
+}
+.container-3{ 
+    margin-left: 160px;
+}
+.first-section{
+  height: 370px;
+  width: 1600px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ background:linear-gradient(navy, #44010a);
+  padding-top: 35px;
+}
+.container-3 .man{
+    margin-left: 100px;
+}
+.container-3 .date{
+    margin-right: 280px;
+    margin-top:-50px ;
+}
+.container-3 .text{
+    margin-left: -120px;
+    color: gainsboro;
+}
+.container-3 .date img{
+    height:270px;
+    width: 310px;
+}
+.container-3 .text a{
+    text-decoration: none;
+    color: cornsilk;
+}
+ .container-4{
+     margin-top: 70px;
+ }
+.fashion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fashion img{
+    height: 450px;
+    width: 328px;
+}
+.fashion img:hover{
+    
+    background: burlywood;
+    box-shadow: 8px 10px 30px gray;
+    transition-duration: 0.123px;
+}
+.fash{
+    display: flex;
+    align-items: center;
+    margin-left: 900px;
+    margin-top: 60px;
+}
+.fashion .text-1{
+    
+    padding-top: 40px;
+    background-color: ghostwhite;
+
+    
+}
+.fashion .text-1:hover{
+    box-shadow: 8px 10px 18px gray;
+    margin-top: -12px;
+    transition-duration: 0.1s;
+}
+.fashion .sharee{
+    height: 570px;
+    
 }
