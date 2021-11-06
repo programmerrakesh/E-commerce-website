@@ -14,11 +14,18 @@
     width: 60px;
     
 }
+#pure-size img:hover{
+    transform: translate(23px);
+    box-shadow: 8px 10px 30px gray;
+}
+#exact-size img:hover{
+    transform: translate(23px);
+    box-shadow: 8px 10px 30px gray;
+}
 .down-nav{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    
     position: relative;
 
 }
@@ -31,6 +38,9 @@
     color: rgb(66, 95, 79);
     font-weight: -8px;
     font-size: 18px;
+} 
+.container-1{
+margin: 0 24px;
 }
 .container-3{ 
     margin-left: 160px;
@@ -76,16 +86,22 @@
     width: 328px;
 }
 .fashion img:hover{
-    
+    transform: translate(12px);
     background: burlywood;
     box-shadow: 8px 10px 30px gray;
-    transition-duration: 0.123px;
+    transition-duration: 0.223px;
 }
 .fash{
     display: flex;
     align-items: center;
     margin-left: 900px;
     margin-top: 60px;
+    margin-bottom: -60px;
+    border: 1px solid gray;
+    width: 105px;
+    border-radius: 7px;
+    background-color: hotpink;
+    padding: 5px 1px;
 }
 .fashion .text-1{
     
@@ -102,4 +118,431 @@
 .fashion .sharee{
     height: 570px;
     
+}
+
+ /* .container-5 .all-shoe{
+     height: 20px;
+    width: 21px; 
+    border: 1px solid royalblue;
+    
+}
+.container-5{
+margin-top: 68px;
+ margin-left:60px; 
+height: 500px;
+border: 1px solid teal;
+width: 1900px;
+}
+ .container-5 .div-1{
+    height: 200px;
+    width: 210px;
+    border: 1px solid red;
+}
+.shoe-section{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+.shoe-header{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 910px;
+    margin-bottom: -30px;
+    border: 1px solid seagreen;
+    width: 110px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: black;
+    color: floralwhite;
+
+
+}
+.shoe-header:hover{
+    margin-left: 918px;
+    box-shadow:5px 7px 9px tomato;
+    text-shadow: 1px 1px rgb(66, 95, 79);
+}
+
+.shoe-section img{
+    height: 210px;
+    width: 270px;
+    padding-left: 27px;
+    
+}
+.shoe-section img:hover{
+    margin-top: -5px;
+    box-shadow: 5px 8px 10px gray;
+}
+.shoe-section .rate-text{
+    height:180px;
+    width:260px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.shoe-section .rate-text:hover{
+    box-shadow: 8px 10px 18px gray;
+    margin-top: -12px;
+    transition-duration: 0.1s;
+}
+.shoe-section .rate-text h4{
+    padding-left: 40px;
+}
+.shoe-section{
+    display: flex;
+}
+
+
+.container-5{
+    width: 1900px;
+    height: 600px;
+    margin-top: 170px;
+}
+.container-5 .div-1{
+    width: 260px;
+    height: 380px;
+    text-align: center;
+    
+    margin-top: 6px;
+    background: linear-gradient(tomato, white);
+    
+} 
+.shoe-section a{
+    text-decoration: none;
+    border: none;
+    background-color: indianred;
+    color: lavender;
+    position: absolute;
+    margin: 50px -40px;
+    padding: 5px 7px;
+    border-radius: 5px;
+
+}
+.shoe-section a:hover{
+    padding: 12px 12px;
+    background-color: lightsteelblue;
+    color: midnightblue;
+    border-radius: 5px;
+}
+.container-5 .all-shoe{
+    width: 290px;
+    height: 380px;
+    
+}
+.shoe-section .div-in{
+    
+    padding-top: 118px;
+    }
+    #text-four{
+        position: absolute;
+        margin-left: 87  0px;
+        margin-top: -140px;
+        border: 1px solid gray;
+        padding: 12px 19px;
+     
+    }
+    #text-four:hover{
+         background-color: #172333;
+         border: none;
+         padding: 12px 23px;
+         border-radius: 5px;
+         color: white;
+
+    }
+  .container-6{
+      margin-top: -70px;
+  }
+    .container-6 .first-div{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 110px;
+        
+        font-size: 25px;
+        padding: 12px 20px;
+    }
+    .container-6 .first-div a{
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid gray;
+        background-color: saddlebrown;
+        color: white;
+        padding: 4px 7px; 
+        border-radius: 3px;
+        
+        margin-top: 40px;
+    }
+    .container-6 .first-div .part-2{
+        margin-top:15px;
+    }
+    .container-6 .first-div .part-1{
+        padding-left: 12px;
+    }
+    .container-6 .second-div{
+        display: flex;
+        justify-content: space-between;
+        
+        margin:0 110px;
+        padding: 12px 20px;
+    }
+    .big-img .just-text{
+        padding-top: 30px;
+    }
+    .big-img .text-a{
+        padding-top: 50px;
+    }
+    .first-div{
+        background-color:seashell;
+    }
+    .second-div{
+        background-color:whitesmoke;
+    }
+    .big-img .text-b{
+        padding-top: 60px;
+    }
+    .second-big{
+        margin-top:23px ;
+    }
+    .gap{
+        height: 23px;
+    }
+    .big-img .text-two{
+        padding-top: 80px;
+    }
+    .big-img .text-one{
+        padding-top: 40px;
+    }
+    .big-img .text-four{
+        padding-top:30px;
+    }
+    .big-img .text-eight{
+        padding-top: 60px;
+    }
+    .big-img .just-text:hover{
+        box-shadow: 8px 10px 18px gray;
+        margin-top: -12px;
+        transition-duration: 0.1s;
+    
+    }
+
+    .big-img .second-div img:hover{
+        box-shadow: 8px 10px 18px gray;
+        margin-top: -12px;
+        transition-duration: 0.1s;
+    
+    }
+
+
+    /* .container-7{
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+   .home-makeover{
+       display: flex;
+       justify-content: space-evenly;
+   }
+   .home-makeover img{
+       height: 450px;
+       width: 328px;
+   }
+   .home-makeover img:hover{
+       transform: translate(12px);
+       background: burlywood;
+       box-shadow: 8px 10px 30px gray;
+       transition-duration: 0.223px;
+   }
+    .fash{
+       display: flex;
+       align-items: center;
+       margin-left: 900px;
+       margin-top: 60px;
+       margin-bottom: -60px;
+       border: 1px solid gray;
+       width: 105px;
+       border-radius: 7px;
+       background-color: hotpink;
+       padding: 5px 1px;
+   } 
+   .home-makeover .text-1{
+       
+       padding-top: 40px;
+       background-color: ghostwhite;
+   
+       
+   }
+   .home-makeover .text-1:hover{
+       box-shadow: 8px 10px 18px gray;
+       margin-top: -12px;
+       transition-duration: 0.1s;
+   }
+   .home-makeover .sharee{
+       height: 570px;
+       
+   } */
+.container-8{
+    width: 1700px;
+   height: 100px;
+   
+   background-color: seashell;
+   margin: 40px 100px;
+}
+.container-8 a{
+    
+    text-decoration: none;
+    border: none;
+    background-color: indianred;
+    color: lavender;
+    position: absolute;
+    margin: 25px 100px;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+.container-8 .one-div{
+   padding:12px 12px;
+   
+}
+   /* .container-8 .one-div{
+    display: flex;
+    
+    
+} */
+.container-9{
+    margin-top: -26px;
+}
+.container-9 .img{
+    position:static;
+}
+.big-img .part-1{
+    padding-left: 50px;
+}
+.small-img .part-2{
+    margin-left:1500px;
+    margin-top: -80px;
+}
+
+    
+
+ .second-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 34px 100px;
+} 
+.container-9 .only-text{
+    margin-top: 34px;
+}
+.second-div img:hover{
+    padding-left: 23px;
+    box-shadow: 5px 8px 10px gray;
+    position: relative;
+}
+.second-div .only-text:hover{
+padding-left: 23px;
+border: none;
+box-shadow: 5px 8px 10px gray;
+}
+
+
+.new-one{
+ margin-top: -17px;
+}
+
+
+.new-two{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin: 0 100px;
+    height: 250px;
+    background: ghostwhite;
+}
+.new-one .new-text{
+    
+    margin-top: 23px;
+}
+.new-one img:hover{
+   margin-left: 3px ;
+}
+.new-one .new-text:hover{
+  box-shadow: 8px 10px 14px gray;
+  margin-top: 4px;
+}
+.new-one #last-text{
+    margin-top: 84px;
+}
+.new-one #last-text:hover{
+    box-shadow: 8px 10px 14px gainsboro;
+    margin-left: 7px;
+}
+
+.last-section .last-one{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.last-section{
+
+    height: 300px;
+    margin: 200px 0;
+    
+    background-color: #172333;
+}
+.last-section .ankor{
+    margin-top:-70px;
+    display: grid;
+}
+.last-section .item .h-six{
+    margin-top: -30px;
+}
+.last-section a{
+    text-decoration: none;
+    color:rgb(235, 227, 227) ;
+
+}
+.last-section a:hover{
+    text-shadow: red;
+    padding-right: 12px;
+}
+.last-section .item{
+    
+    height: 200px;
+    width: 280px;
+    display: grid;
+    padding-top: 34px;
+    
+}
+.last-section h6{
+    color: rgb(145, 138, 138);
+    
+}
+.last-section .item .text-color{
+    color:rgb(235, 227, 227);
+    
+}
+.last-section #ray{
+height: 180px;
+width: 1px;
+background-color: gray;
+margin-top:35px;
+
+}
+.line-div{
+    border: 1px solid red;
+    height: 12px;
+    width: 12px;
+}
+.end-section{
+    height: 73px;
+    margin: -250px 0;
+    border: 0.005px solid red;
+    background-color: #172333 ;
+    
+}
+.end-section h7{
+    color: white;
+}
+.end-section .end-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 24px;
 }
